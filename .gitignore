@@ -1,6 +1,15 @@
+# Maven
 /target/
 /.classpath
 /.project
 /dependency-reduced-pom.xml
 /bin
 .settings
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEA
+.idea

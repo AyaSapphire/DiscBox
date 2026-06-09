@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(curl -fsSL -o gradle/wrapper/gradle-wrapper.jar \"https://raw.githubusercontent.com/gradle/gradle/v8.10.0/gradle/wrapper/gradle-wrapper.jar\")",
+      "Bash(curl -fsSL -o gradle/wrapper/gradle-wrapper.jar \"https://github.com/gradle/gradle/raw/v8.10.0/gradle/wrapper/gradle-wrapper.jar\")",
+      "Bash(chmod +x *)",
+      "Bash(./gradlew build *)",
+      "Bash(./gradlew --version)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -fsSL -o ConfigUpdater-2.1-SNAPSHOT.jar \"https://github.com/tchristofferson/Config-Updater/releases/download/v2.1-SNAPSHOT/ConfigUpdater-2.1-SNAPSHOT.jar\")",
+      "WebFetch(domain:docs.papermc.io)",
+      "WebFetch(domain:www.spigotmc.org)",
+      "Bash(curl *)"
+    ]
+  }
+}

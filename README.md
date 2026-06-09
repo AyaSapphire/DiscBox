@@ -1,30 +1,24 @@
-# JukeBox
-JukeBox is a plugin that allows you to listen to music on your Minecraft server.
+# DiscBox
+DiscBox is a plugin that allows you to listen to Note block music on your Minecraft server.
 
-Rewritten by [wtflmao](https://github.com/wtflmao), licensed under MIT.
+Rewritten by [blitzcolo](https://github.com/blitzcolo) and [AyaSapphire](https://github.com/AyaSapphire), licensed under MIT.
 
 ## How to download?
 The official page for this project is on [SpigotMC](https://www.spigotmc.org/resources/jukebox-music-plugin.40580/).
 
-The rewritten version is on [Release](https://github.com/wtflmao/JukeBox/releases) page.
+The rewritten fork is on [Release](https://github.com/wtflmao/JukeBox/releases) page.
 
 ## Documentation
 You can find various tutorials in the [documentation page on SpigotMC](https://www.spigotmc.org/resources/jukebox-music-plugin.40580/field?field=documentation).
 
-## Maven repository
-Add this to your `repositories` section:
-```xml
-<repository>
-	<id>codemc-repo</id>
-	<url>https://repo.codemc.org/repository/maven-public/</url>
-</repository>
+New features may be displayed here soon.
+
+## Build
+
+This project uses **Gradle**. To build:
+
+```bash
+./gradlew build
 ```
-And this to your `dependencies` section:
-```xml
-<dependency>
-  <groupId>fr.skytasul</groupId>
-  <artifactId>jukebox</artifactId>
-  <version>VERSION</version>
-  <scope>provided</scope>
-</dependency>
-```
+
+Build output is at `build/libs/DiscBox-<version>.jar`.
